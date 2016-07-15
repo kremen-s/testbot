@@ -84,7 +84,7 @@ bot.onText(/(.+)$/, function (msg, match) {
                 {
                     // add the line break if not the first answer
                     if (itemsFound==0) 
-                        formattedAnswer += "Что это за покемон?" + '\u2753';
+                        formattedAnswer += "<b>Что это за покемон</b>" + 'u2753';
                     else 
                         formattedAnswer += "\n\n";
                         
