@@ -84,12 +84,12 @@ bot.onText(/(.+)$/, function (msg, match) {
                 {
                     // add the line break if not the first answer
                     if (itemsFound==0) 
-                        formattedAnswer += "Что это за покемон? U2753";
+                        formattedAnswer += "Что это за покемон?" + '\u2751';
                     else 
                         formattedAnswer += "\n\n";
                         
                     itemsFound++;
-                    formattedAnswer += '\u27a1' + item.content.$t; // add item content, '\u27a1' is the arrow emoji
+                    formattedAnswer += '\u2611' + item.content.$t; // add item content, '\u27a1' is the arrow emoji
                 }
                 else if (currentHours == itemTime) // else collect items for the current hour
                 {
