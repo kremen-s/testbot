@@ -323,11 +323,11 @@ if (messageText === '\/info@chelMapBot') {
   //console.log(msg);
   
     if (messageText === '\/meet@chelMapBot') {if (messageDate < 1474761599) {
-	bot.sendMessage(messageChatId, '*Массовый фарм люров x.1*\nСуббота, 24.09, 19:00 на «Торговом центре».\n\n*Массовый фарм люров x.2*\nВторник, 27.09, 19:00 на «Торговом центре».\n\n_Запасайтесь чаем в термосах и тёплой одеждой. Желаем удачного фарма!_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)} else {bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)}}
+	bot.sendMessage(messageChatId, '*Массовый фарм люров x.1*\nСуббота, 24.09, 19:00 на «Торговом центре».\n\n*Массовый фарм люров x.2*\nВторник, 27.09, 19:00 на «Торговом центре».\n\n_Запасайтесь чаем в термосах и тёплой одеждой. Желаем удачного фарма!_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)} else {bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts);/*bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)*/}}
   //console.log(msg);
 
     if (messageText === '\/meet') {if (messageDate < 1474761599) {
-	bot.sendMessage(messageChatId, '*Массовый фарм люров x.1*\nСуббота, 24.09, 19:00 на «Торговом центре».\n\n*Массовый фарм люров x.2*\nВторник, 27.09, 19:00 на «Торговом центре».\n\n_Запасайтесь чаем в термосах и тёплой одеждой. Желаем удачного фарма!_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)} else {bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)}}
+	bot.sendMessage(messageChatId, '*Массовый фарм люров x.1*\nСуббота, 24.09, 19:00 на «Торговом центре».\n\n*Массовый фарм люров x.2*\nВторник, 27.09, 19:00 на «Торговом центре».\n\n_Запасайтесь чаем в термосах и тёплой одеждой. Желаем удачного фарма!_', stndrt_opts);bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)} else {bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts);/*bot.sendLocation(messageChatId, 55.1717114,61.3938271, stndrt_opts)*/}}
   //console.log(msg);
 
   
