@@ -1,3 +1,20 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @benmozes
+ Unwatch 1
+  Star 0
+  Fork 0 benmozes/testbot
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathtestbot/bot.js
+de94bea  7 minutes ago
+@benmozes benmozes Update bot.js
+2 contributors @benmozes @emirn
+RawBlameHistory     
+372 lines (323 sloc)  15.7 KB
 // Created by Evgenii Mironichev, Copyright 2016,
 // based on this awesome tutorial: https://mvalipour.github.io/node.js/2015/11/10/build-telegram-bot-nodejs-heroku/
 
@@ -304,13 +321,13 @@ if (messageText === '\/info@chelMapBot') {
   //console.log(msg);
   
   if (messageText === '\/map@chelMapBot') {
-		bot.sendMessage(messageChatId, 'goo.gl\/58VVrs', stndrt_opts);
+		bot.sendMessage(messageChatId, 'ow.lyl\/X6CC304KpGs', stndrt_opts);
 		//bot.sendSticker(messageChatId, 'BQADAgADYgMAAlvD2wGiJJ6VfDl8owI')
 		}
   //console.log(msg);
 
   if (messageText === '\/map') {
-		bot.sendMessage(messageChatId, 'goo.gl\/58VVrs', stndrt_opts);
+		bot.sendMessage(messageChatId, 'ow.lyl\/X6CC304KpGs', stndrt_opts);
 	//bot.sendSticker(messageChatId, 'BQADAgADYgMAAlvD2wGiJJ6VfDl8owI')
 	}
   //console.log(msg);*/
