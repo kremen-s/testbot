@@ -363,8 +363,8 @@ if (messageText === '\/info@chelMapBot') {
 		bot.sendSticker(messageChatId, 'BQADAgADPQEAAn-zKAuy6Q-eS4JYUQI');}
 		//bot.sendMessage(messageChatId, 'Админ, кикни нафиг это чудовище!!!', stndrt_opts);*/
 
-  if (messageText === '\/meet') {
-	bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts)} 
+  /*if (messageText === '\/meet') {
+	bot.sendMessage(messageChatId, '_ничего пока не планируем_', stndrt_opts)} */
 });
 
 module.exports = bot;
