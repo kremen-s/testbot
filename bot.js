@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @benmozes
- Unwatch 1
-  Star 0
-  Fork 0 benmozes/testbot
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathtestbot/bot.js
-de94bea  7 minutes ago
-@benmozes benmozes Update bot.js
-2 contributors @benmozes @emirn
-RawBlameHistory     
-372 lines (323 sloc)  15.7 KB
-// Created by Evgenii Mironichev, Copyright 2016,
 // based on this awesome tutorial: https://mvalipour.github.io/node.js/2015/11/10/build-telegram-bot-nodejs-heroku/
 
 var config = require('./config'); // rename config.js.example into config.js and set keys and tokens inside it
