@@ -303,13 +303,13 @@ if (messageText === '\/info@chelMapBot') {
   //console.log(msg);
   
   if (messageText === '\/map@chelMapBot') {
-		bot.sendMessage(messageChatId, 'ow.ly\/X6CC304KpGs', stndrt_opts);
+		bot.sendMessage(messageChatId, 'Карта *не работает*. Когда заработает — *неизвестно*.\n_Нам грустно, но от нас ничего не зависит._', stndrt_opts);
 		//bot.sendSticker(messageChatId, 'BQADAgADYgMAAlvD2wGiJJ6VfDl8owI')
 		}
   //console.log(msg);
 
   if (messageText === '\/map') {
-		bot.sendMessage(messageChatId, 'ow.ly\/X6CC304KpGs', stndrt_opts);
+		bot.sendMessage(messageChatId, 'Карта *не работает*. Когда заработает — *неизвестно*.\n_Нам грустно, но от нас ничего не зависит._', stndrt_opts);
 	//bot.sendSticker(messageChatId, 'BQADAgADYgMAAlvD2wGiJJ6VfDl8owI')
 	}
   //console.log(msg);*/
