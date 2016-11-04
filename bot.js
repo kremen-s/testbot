@@ -356,7 +356,7 @@ if (messageText === '/admintest') {
 
 		if (~messageText.indexOf('уху')) {
 		if (messageUserId === 246383913) {
-			bot.sendSticker(messageChatId, 'BQADAgADmgEAAhhC7gjsvHum0bq7BAI');
+			bot.sendSticker(messageChatId, 'BQADAgADlgEAAhhC7gjiclnW2lf6-wI');
 		}
 	}
 		//bot.sendMessage(messageChatId, 'Админ, кикни нафиг это чудовище!!!', stndrt_opts);}
