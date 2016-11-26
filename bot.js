@@ -347,7 +347,7 @@ if (messageText === '/admintest') {
 			bot.sendSticker(messageChatId, 'BQADAgADGwADf8fMAV_v_u0nYKqIAg');
 		}
 	}
-			if (~messageText.indexOf('солянк')) {
+			if (~messageText.indexOf('солян')) {
 		if (messageUserId === 3550328) {
 			bot.sendSticker(messageChatId, 'BQADAgADWwADf8fMAdiwl4C9MTBkAg');
 		}
