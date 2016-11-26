@@ -354,7 +354,7 @@ if (messageText === '/admintest') {
 	}
 			if (~messageText.indexOf('компот')) {
 		if (messageUserId === 3550328) {
-			bot.sendSticker(messageChatId, 'BQADAgADYAADf8fMAXDPiS-WPA9_Ag');
+			bot.sendSticker(messageChatId, 'BQADAgADYgADf8fMAVLn_706TETyAg');
 		}
 	}
 	
