@@ -347,10 +347,20 @@ if (messageText === '/admintest') {
 			bot.sendSticker(messageChatId, 'BQADAgADGwADf8fMAV_v_u0nYKqIAg');
 		}
 	}
+			if (~messageText.indexOf('солянк')) {
+		if (messageUserId === 3550328) {
+			bot.sendSticker(messageChatId, 'BQADAgADWwADf8fMAdiwl4C9MTBkAg');
+		}
+	}
+			if (~messageText.indexOf('компот')) {
+		if (messageUserId === 3550328) {
+			bot.sendSticker(messageChatId, 'BQADAgADYAADf8fMAXDPiS-WPA9_Ag');
+		}
+	}
 	
 		if (~messageText.indexOf('пирог')) {
 		if (messageUserId === 131752188) {
-			bot.sendSticker(messageChatId, 'BQADAgAD4wADzFRJCVAECjbgQtEaAg');
+			bot.sendSticker(messageChatId, 'BQADAgAD4wAфDzFRJCVAECjbgQtEaAg');
 		}
 	}
 
