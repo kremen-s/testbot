@@ -360,7 +360,7 @@ if (messageText === '/admintest') {
 	
 		if (~messageText.indexOf('пирог')) {
 		if (messageUserId === 131752188) {
-			bot.sendSticker(messageChatId, 'BQADAgAD4wAфDzFRJCVAECjbgQtEaAg');
+			bot.sendSticker(messageChatId, 'BQADAgAD4wADzFRJCVAECjbgQtEaAg');
 		}
 	}
 
