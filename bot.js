@@ -74,13 +74,13 @@ bot.on('sticker', function(msg) {
 	var iscommand = msg.entities;
 	var messageStickerId = msg.sticker.file_id;
 	
-		if (messageStickerId ==='BQADAgADjQADTbVRERYBS3hpkKipAg')) {
+		if (messageStickerId ==='BQADAgADjQADTbVRERYBS3hpkKipAg') {
 		if (messageUserId === 258313197) {
 			bot.sendSticker(messageChatId, 'BQADAgADNQEAAn-zKAvjBwUQzeWuiwI');
 		}
 	}
 	
-}
+});
 	
 bot.on('text', function(msg) {
 	var messageChatId = msg.chat.id;
