@@ -61,7 +61,31 @@ bot.on('left_chat_participant', function(msg)
 	//console.log(msg);	
 });
 
-
+	if (~messageText.indexOf('сиськи')) {
+		if (messageUserId === 258313197) {
+			bot.sendSticker(messageChatId, 'BQADAgADNQEAAn-zKAvjBwUQzeWuiwI');
+		}
+	}
+	
+bot.on('sticker', function(msg) {
+	var messageChatId = msg.chat.id;
+	var messageUserId = msg.from.id;
+    var messageText = msg.text;
+    var messageDate = msg.date;
+    var messageUsr = msg.from.username;
+	var messageChatType = msg.chat.type;
+	var messageUserFName = msg.from.first_name;
+	var messageUserLName = msg.from.last_name;
+	var iscommand = msg.entities;
+	
+		if (~messageStickerID ==='BQADAgADjQADTbVRERYBS3hpkKipAg')) {
+		if (messageUserId === 258313197) {
+			bot.sendSticker(messageChatId, 'BQADAgADNQEAAn-zKAvjBwUQzeWuiwI');
+		}
+	}
+	
+}
+	
 bot.on('text', function(msg) {
 	var messageChatId = msg.chat.id;
 	var messageUserId = msg.from.id;
