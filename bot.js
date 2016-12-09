@@ -61,11 +61,6 @@ bot.on('left_chat_participant', function(msg)
 	//console.log(msg);	
 });
 
-	if (~messageText.indexOf('сиськи')) {
-		if (messageUserId === 258313197) {
-			bot.sendSticker(messageChatId, 'BQADAgADNQEAAn-zKAvjBwUQzeWuiwI');
-		}
-	}
 	
 bot.on('sticker', function(msg) {
 	var messageChatId = msg.chat.id;
