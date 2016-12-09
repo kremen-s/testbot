@@ -77,8 +77,9 @@ bot.on('sticker', function(msg) {
 	var messageUserFName = msg.from.first_name;
 	var messageUserLName = msg.from.last_name;
 	var iscommand = msg.entities;
+	var messageStickerId = msg.sticker.file_id;
 	
-		if (messageStickerID ==='BQADAgADjQADTbVRERYBS3hpkKipAg')) {
+		if (messageStickerId ==='BQADAgADjQADTbVRERYBS3hpkKipAg')) {
 		if (messageUserId === 258313197) {
 			bot.sendSticker(messageChatId, 'BQADAgADNQEAAn-zKAvjBwUQzeWuiwI');
 		}
